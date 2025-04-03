@@ -1,0 +1,17 @@
+{
+  "name": "occams-advisory-chatbot",
+  "version": "1.0.0",
+  "description": "A chatbot for Occams Advisory using LangChain and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
